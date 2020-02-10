@@ -14,7 +14,7 @@
 
 .menu {
     height: 70vh;
-    max-width: 100vh;
+    max-width: -webkit-fill-available;
 }
 
 .jumboimgMenu {
