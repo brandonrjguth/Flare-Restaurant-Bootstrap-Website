@@ -14,7 +14,7 @@
 
 .menu {
     height: 70vh;
-    max-width: 100vh;
+    max-width: 50vh;
 }
 
 .jumboimgMenu {
@@ -26,16 +26,8 @@
     height: 100%;
 }
 
-.modal-open {
-    overflow: inherit !important;
-    overflow-x: auto;
-    overflow-y: auto;
-    width: 90% !important;
-}
-
-.modal-content {
-    overflow-x: auto !important;
-    overflow-y: auto !important;
+.modal-open .modal {
+    padding-right: 0 !important;
 }
 
 .arrow {
@@ -77,9 +69,9 @@
 .jumbotron {
     margin-bottom: 0px;
     background-color: #000000b5 !important;
-    max-height: calc(98vh + 2px);
-    height: calc(98vh + 2px);
+    height: 100vh;
     padding: 0px;
+    max-height: 94hv;
 }
 
 .socallogo {
@@ -113,7 +105,6 @@
 
 .container4 {
     background-color: white;
-    padding: 40px;
 }
 
 .container4 p {
