@@ -20,43 +20,48 @@
 
 <body>
 
-    <!-- SOCIAL ICONS -->
-    <div class="icons">
-        <a class="icon">
-            <img src="../img/facebook.png" class="icon"></img>
-        </a>
-        <a class="icon">
-            <img src="../img/twitter.png" class="icon"></img>
-        </a>
-        <a class="icon">
-            <img src="../img/instagram.png" class="icon"></img>
-        </a>
-    </div>
+
 
     <!-- JUMBOTRON -->
     <div class="container-full">
+
+
+
         <div class="row mx-auto">
             <div class="jumbotron col-12">
+
+                <!-- SOCIAL ICONS -->
+                <div class="icons">
+                    <a class="icon">
+                        <img src="../img/facebook.png" class="icon"></img>
+                    </a>
+                    <a class="icon">
+                        <img src="../img/twitter.png" class="icon"></img>
+                    </a>
+                    <a class="icon">
+                        <img src="../img/instagram.png" class="icon"></img>
+                    </a>
+                </div>
 
                 <!-- NAVBAR -->
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark navCSS mt-2 mb-2">
                     <a class="navbar-brand" href="#"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav justify-content-center mx-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="../index.html">Home</a>
+                                <a class="nav-link" href="..index.html">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="food.html">Food</a>
+                                <a class="nav-link" href="../views/food.html">Food</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="drinks.html">Drinks</a>
+                                <a class="nav-link" href="../views/drinks.html">Drinks</a>
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link" href="events.html">Events</a>
+                                <a class="nav-link" href="../views/events.html">Events</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="../index.html#contactus">Contact Us</a>
@@ -65,12 +70,11 @@
                     </div>
                 </nav>
 
-
                 <!-- RESTAURANT MENU -->
-                <div class="container-fluid pt-5">
-                    <div class="row">
+                <div class="container-full pt-3">
+                    <div>
 
-                        <div class="col-12">
+                        <div>
                             <a href="#exampleModal" data-toggle="modal" data-target="#exampleModal">
                                 <img src="../img/Event.jpg" class="rounded mx-auto d-block menu" alt="Responsive image">
                             </a>
@@ -79,25 +83,21 @@
                     </div>
                 </div>
 
-
-                <!-- BACKGROUND IMG -->
-                <img src="../img/barPhoto.jpg" class="jumboimg2">
-
-
                 <!-- MENU MODAL -->
                 <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    < <div class="modal-content">
+                    <div class="modal-content">
                         <a href="#exampleModal" data-dismiss="modal" data-target="#exampleModal">
-                            <img src="../img/Event.jpg" width=90%>
+                            <img src="../img/Event.jpg" width="100%"">
                         </a>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-
+                <img src="../img/barPhoto.jpg" class="jumboimg2">
             </div>
         </div>
-    </div>
+
 </body>
 
 </html>
