@@ -30,6 +30,7 @@
     overflow: inherit !important;
     overflow-x: auto;
     overflow-y: auto;
+    width: 90% !important;
 }
 
 .modal-content {
@@ -66,11 +67,19 @@
     background-color: black;
 }
 
+.container-full {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
 .jumbotron {
     margin-bottom: 0px;
     background-color: #000000b5 !important;
     max-height: calc(98vh + 2px);
     height: calc(98vh + 2px);
+    padding: 0px;
 }
 
 .socallogo {
