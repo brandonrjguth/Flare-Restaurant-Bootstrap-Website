@@ -8,6 +8,12 @@
     opacity: 0.82;
 }
 
+.modal-content {
+    overflow-x: auto !important;
+    overflow-y: auto !important;
+}
+
+
 .body {
     height: 100vh !important;
 }
