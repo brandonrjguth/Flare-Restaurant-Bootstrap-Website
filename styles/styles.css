@@ -8,19 +8,13 @@
     opacity: 0.82;
 }
 
-.modal-content {
-    overflow-x: auto !important;
-    overflow-y: auto !important;
-}
-
-
 .body {
     height: 100vh !important;
 }
 
 .menu {
     height: 70vh;
-    max-width: -webkit-fill-available;
+    max-width: 100vh;
 }
 
 .jumboimgMenu {
@@ -30,6 +24,17 @@
     top: 0px;
     width: 100%;
     height: 100%;
+}
+
+.modal-open {
+    overflow: inherit !important;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.modal-content {
+    overflow-x: auto !important;
+    overflow-y: auto !important;
 }
 
 .arrow {
@@ -69,7 +74,10 @@
 }
 
 .socallogo {
-    height: 30%;
+    max-height: 30%;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    margin-top: 6vh;
 }
 
 .nav-link {
@@ -135,9 +143,15 @@
 
 h1 {
     font-family: 'Clicker Script', cursive;
-    font-size: 80px;
+    font-size: 12vh;
     font-weight: bold;
     color: white;
+}
+
+h2 {
+    font-family: 'Raleway';
+    color: white;
+    font-size: 3vh;
 }
 
 .container2header {
@@ -165,12 +179,6 @@ p {
 
 .container3 p {
     color: black;
-}
-
-h2 {
-    font-family: 'Raleway';
-    color: white;
-    font-size: 1.5rem;
 }
 
 #contactus {
@@ -271,6 +279,10 @@ h2 {
 
 #leadTextMobile p {
     font-style: italic;
+}
+
+#leadTextMobile h1 {
+    font-size: 2.5rem !important;
 }
 
 @media(max-width:900px) {
