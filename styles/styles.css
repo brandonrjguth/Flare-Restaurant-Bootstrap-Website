@@ -30,6 +30,16 @@
     padding-right: 0 !important;
 }
 
+.modal {
+    position: absolute !important;
+    float: left !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 85%;
+    height: 85%;
+}
+
 .arrow {
     z-index: 1;
     width: 95px;
