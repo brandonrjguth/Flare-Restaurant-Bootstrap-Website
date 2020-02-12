@@ -322,6 +322,10 @@ p {
     }
 }
 
+.jumboimg2{
+    min-height:100vh;
+}
+
 .navbar {
     justify-content: flex-start;
 }
